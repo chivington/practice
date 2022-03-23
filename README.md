@@ -1,9 +1,9 @@
 <p align="center">
-  <img width='650' src='https://github.com/chivington/practice/blob/master/imgs/practice.jpg' alt='practice Logo'/>
+  <img width='650' src='https://github.com/chivington/practice/blob/main/practice.jpg' alt='practice Logo'/>
 </p>
 
 # practice
-Just a place to put practice exercises. 
+Just a place to put practice exercises.
 
 ![Build Status](https://img.shields.io/badge/build-Stable-green.svg)
 ![License](https://img.shields.io/badge/license-NONE-lime.svg)
