@@ -1,5 +1,5 @@
 <p align="center">
-  <img width='650' src='https://github.com/chivington/practice/blob/main/practice/sort/sort.gif' alt='practice Logo'/>
+  <img width='650' src='https://github.com/chivington/practice/blob/main/sort/sort.gif' alt='sort image'/>
 </p>
 
 # Sorting Algorithms

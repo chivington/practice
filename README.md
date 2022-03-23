@@ -1,5 +1,5 @@
 <p align="center">
-  <img width='650' src='https://github.com/chivington/practice/blob/main/practice.jpg' alt='practice Logo'/>
+  <img width='650' src='https://github.com/chivington/practice/blob/main/practice.jpg' alt='practice image'/>
 </p>
 
 # practice
