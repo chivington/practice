@@ -3,7 +3,7 @@
 </p>
 
 # practice
-Just a place to put practice exercises.
+Just a place to put practice exercises. 
 
 ![Build Status](https://img.shields.io/badge/build-Stable-green.svg)
 ![License](https://img.shields.io/badge/license-NONE-lime.svg)
