@@ -54,38 +54,27 @@ class Trie {
 
     // test Trie
     public static void main(String args[]) {
-        // input words
-        String words[] = {"the", "a", "there", "alligator", "by", "ally", "bye"};
+        // known words
+        String kw[] = {"the", "a", "there", "alligator", "by", "ally", "bye"};
 
-		// user messages
-        String msgs[] = {": NOT in Trie.", ": IS in Trie."};
+		// unknown words
+        String uw[] = {"therapy", "alphabet", "lullaby", "random", "fly", "dam", "car"};
 
 		// create Trie
         Trie t = new Trie();
 
-        // insert words
-        for (int word = 0; word < words.length ; word++) t.insert(words[word]);
+        // insert kw
+        for (int word = 0; word < kw.length ; word++) t.insert(kw[word]);
 
-        // search for known words
-        if (t.search(words[0])) System.out.println(" " + words[0] + msgs[1]);
-        else System.out.println(" " + words[0] + msgs[0]);
+        // search for words
+		for (int i = 0; i < kw.length; i++) {
+			// known words
+			if (t.search(kw[i])) System.out.println(" " + String.format("%10s", kw[i]) + " - IS in Trie.");
+	        else System.out.println(" " + String.format("%10s", kw[i]) + " - NOT in Trie.");
 
-        if (t.search(words[1])) System.out.println(" " + words[1] + msgs[1]);
-        else System.out.println(" " + words[1] + msgs[0]);
-
-        if (t.search(words[2])) System.out.println(" " + words[2] + msgs[1]);
-        else System.out.println(" " + words[2] + msgs[0]);
-
-        if (t.search(words[3])) System.out.println(" " + words[3] + msgs[1]);
-        else System.out.println(" " + words[3] + msgs[0]);
-
-
-		// search for missing words
-		if (t.search("alphabet")) System.out.println(" alphabet" + msgs[1]);
-        else System.out.println(" alphabet" + msgs[0]);
-
-		if (t.search("therapy")) System.out.println(" therapy" + msgs[1]);
-        else System.out.println(" therapy" + msgs[0]);
-
+			// unknown words
+			if (t.search(uw[i])) System.out.println(" " + String.format("%10s", uw[i]) + " - IS in Trie.");
+	        else System.out.println(" " + String.format("%10s", uw[i]) + " - NOT in Trie.");
+		}
     }
 }
